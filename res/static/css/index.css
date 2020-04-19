@@ -154,16 +154,17 @@ body {
 
 #banner .panel p {
 	color: #8c8c8c;
-	font-size: 44px;
-	line-height: 80px;
-	letter-spacing: 15px;
+	font-size: 25px;
+	line-height: 40px;
+	letter-spacing: 5px;
 }
 
 #banner .panel p.title {
 	color: #4a4a4a;
-	font-size: 54px;
-	letter-spacing: 10px;
+	font-size: 34px;
+	letter-spacing: 5px;
 }
+
 
 /*主体—产品*/
 .main-product {
@@ -508,6 +509,8 @@ body {
 .banner.news {
 	background: url(../img/nav_img3.jpg) no-repeat center top;
 	background-size: cover;
+	color: #13dbb3;
+	font-size: 26px;
 }
 
 .banner .title {
@@ -599,7 +602,7 @@ body {
 /*动态详情页*/
 .main-newsdate {
 	margin-top: 80px;
-	text-align: center;
+	
 }
 
 .main-newsdate .news {
@@ -620,13 +623,13 @@ body {
 .main-newsdate .introTop {
 	padding-bottom: 28px;
 	font-size: 18px;
-	line-height: 20px;
+	line-height: 30px;
 	text-align: left;
 }
 
 .main-newsdate .introBott {
 	font-size: 18px;
-	line-height: 42px;
+	line-height: 30px;
 	text-align: justify;
 	padding: 40px 0 102px 0;
 }

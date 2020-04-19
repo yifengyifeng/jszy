@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+		<title>久尚致远</title>
+		<link rel="stylesheet" href="../res/layui/css/layui.css">
+		<link rel="stylesheet" href="../res/static/css/index.css">
+	</head>
+	<body>
+		<!-- nav部分 -->
+		<div class="nav">
+			<div class="layui-container">
+				<!-- 公司logo -->
+				<div class="nav-logo">
+					<a href="index.html">
+						<img src="../res/static/img/logo.png" alt="网络公司">
+					</a>
+				</div>
+				<div class="nav-list">
+					<button>
+						<span></span><span></span><span></span>
+					</button>
+					<ul class="layui-nav" lay-filter="">
+						<li class="layui-nav-item"><a href="index.html">优势业务</a></li>
+						<li class="layui-nav-item"><a href="case.html">案例分享</a></li>
+						<li class="layui-nav-item"><a href="lxwm.html">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- banner部分 -->
+		<div class="banner case">
+			<div class="title">
+				<p>案例分享</p>
+				<p class="en">Case Share</p>
+			</div>
+		</div>
+		<!-- main部分 -->
+		<div class="main-case">
+			<div class="layui-container">
+				<div class="layui-row">
+					<div class="layui-inline content">
+						<div class="layui-inline case-img"><a href="caseDetail1.html"><img src="../res/static/img/case1.jpg"></a></div>
+						<p class="lable"><a href="caseDetail1.html">合同拆分</a></p>
+						<p>Contract deconstruction</p>
+					</div>
+					<div class="layui-inline content even center">
+						<div class="layui-inline case-img"><a href="caseDetail2.html"><img src="../res/static/img/case2.jpg"></a></div>
+						<p class="lable"><a href="caseDetail2.html">股权转让</a></p>
+						<p>Equity transfer</p>
+					</div>
+					<div class="layui-inline content">
+						<div class="layui-inline case-img"><a href="caseDetail3.html"><img src="../res/static/img/case3.jpg"></a></div>
+						<p class="lable"><a href="caseDetail3.html">内审外审之业务招待费</a></p>
+						<p>Internal and external audit:entertainment expenses</p>
+					</div>
+					<div class="layui-inline content even">
+						<div class="layui-inline case-img"><a href="caseDetail4.html"><img src="../res/static/img/case4.jpg"></a></div>
+						<p class="lable"><a href="caseDetail4.html">内审外审之工资奖金</a></p>
+						<p>Internal and external audit:salary and bonus</p>
+					</div>
+					<div class="layui-inline content even center">
+						<div class="layui-inline case-img"><a href="caseDetail5.html"><img src="../res/static/img/case5.jpg"></a></div>
+						<p class="lable"><a href="caseDetail5.html">政策性搬迁补偿</a></p>
+						<p>Policy relocation compensation</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../res/layui/layui.js"></script>
+		<script>
+			layui.config({
+				base: '../res/static/js/'
+			}).use('firm');
+		</script>
+	</body>
+</html>
