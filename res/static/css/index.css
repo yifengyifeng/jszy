@@ -26,16 +26,22 @@ body {
 	overflow: hidden;
 	transition: 0.3s
 }
-
+.ziti{
+	font-size: 20px;
+}
+.ziti1{
+	font-size: 24px;
+}
 .ddt{
 	font-size: 22px;
-	color: #0000ff;
+	color: #00001d;
 	line-height: 32px;
 }
 .ddm{
 	font-size: 18px;
 	line-height: 30px;
 	color: #484848;
+	font-family: KaiTi;
 }
 .ddl{
 	color: #0affff;
@@ -188,7 +194,7 @@ body {
 
 .main-product p.title span,
 .main-service p.title span {
-	color: #2db5a3;
+	color: #538234;
 }
 
 .main-product .content {
@@ -201,13 +207,13 @@ body {
 .main-product .content p.label {
 	font-size: 18px;
 	color: #939393;
-	line-height: 46px;
-	padding-top: 6px;
+	line-height: 30px;
+	padding-top: 0px;
 }
 
 .main-product .content a {
 	font-size: 24px;
-	color: #05d841;
+	color: #000802;
 	line-height: 68px;
 }
 
@@ -242,7 +248,7 @@ body {
 .main-service .content .content-right {
 	box-sizing: border-box;
 	background: #FFF;
-	padding: 58px 40px 0 48px;
+	padding: 20px 20px 0 20px;
 	width: 50%;
 	height: 100%;
 	position: absolute;
@@ -253,15 +259,17 @@ body {
 }
 
 .main-service .content .content-right p {
-	color: #adadad;
-	line-height: 32px;
+	color: #3a3a3a;
+	line-height: 25px;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	font-family: KaiTi;
+	font-size: 16px;
 }
 
 .main-service .content .content-right p.label {
-	font-size: 16px;
-	color: #4a4a4a;
+	font-size: 20px;
+	color: #0f0f0f;
 }
 
 .main-service .content .content-right span {
@@ -328,7 +336,7 @@ body {
 .main-service .content1 .content-right {
 	box-sizing: border-box;
 	background: #FFF;
-	padding: 58px 40px 0 48px;
+	padding: 20px 20px 0 20px;
 	width: 75%;
 	height: 100%;
 	position: absolute;
@@ -339,15 +347,16 @@ body {
 }
 
 .main-service .content1 .content-right p {
-	color: #adadad;
-	line-height: 32px;
+	color: #3a3a3a;
+	line-height: 30px;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	font-family: KaiTi;
 }
 
 .main-service .content1 .content-right p.label {
-	font-size: 16px;
-	color: #4a4a4a;
+	font-size: 24px;
+	color: #0f0f0f;
 }
 
 .main-service .content1 .content-right span {
@@ -393,6 +402,7 @@ body {
 	overflow: hidden;
 	font-size: 22px;
 	text-overflow: ellipsis;
+	font-family: KaiTi;
 }
 
 .main-service .content2 .content-right p.label {
@@ -625,6 +635,7 @@ body {
 	font-size: 18px;
 	line-height: 30px;
 	text-align: left;
+	font-family: KaiTi;
 }
 
 .main-newsdate .introBott {
